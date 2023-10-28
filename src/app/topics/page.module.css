@@ -1,0 +1,22 @@
+.page {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+.imgWrapper {
+	height: 50vh;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.img {
+	object-fit: cover;
+}
+.imgBetween {
+	width: 50vw;
+	height: 100%;
+	object-fit: contain;
+}
