@@ -10,8 +10,32 @@ body {
 	overflow-x: hidden;
 	/* background-color: black;
 	color: #bbb; */
+}
+
+p {
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	max-width: 1366px;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 ol,

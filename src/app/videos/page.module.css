@@ -1,0 +1,18 @@
+.video {
+	width: 55vw;
+	height: 65vh;
+	object-fit: contain;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 100px;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}

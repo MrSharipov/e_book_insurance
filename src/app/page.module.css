@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+.heading {
+	font-weight: bold;
+	font-size: 80px;
+}
+.imgWrapper {
+	width: 60vw;
+	height: 400px;
+	position: relative;
+}
+.img {
+	object-fit: contain;
+}

@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	border-radius: 5px;
+	padding: 10px 5px;
+	display: inline-block;
+	height: 80vh;
+	vertical-align: top;
+	overflow-y: scroll;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	flex: 5;
+	text-align: left;
+	font-size: 14px;
+}
+.link {
+	border-bottom: 2px solid #bbb;
+	padding: 5px;
+}
