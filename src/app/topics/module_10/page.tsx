@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../page.module.css';
 import Image from 'next/image';
 
-export const TopicTen = () => {
+const TopicTen = () => {
 	return (
 		<div className={styles.page}>
 			<h3>X BOB. SUG‘URTA BIZNESINI SOLIQQA TORTISH TURLARI VA UNING TARTIBI.</h3>
