@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../page.module.css';
 import Image from 'next/image';
 
-export const TopicSix = () => {
+const TopicSix = () => {
 	return (
 		<div className={styles.page}>
 			<h3>VI BOB. SUG‘URTA BIZNESIDA MOLIYAVIY FAOLIYATNI BYUDJETLASHTIRISH</h3>

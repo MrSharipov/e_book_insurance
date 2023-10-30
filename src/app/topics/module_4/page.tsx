@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../page.module.css';
 import Image from 'next/image';
 
-export const TopicFour = () => {
+const TopicFour = () => {
 	return (
 		<div className={styles.page}>
 			<h3>IV BOB. SUG‘URTA BOZORINING INSTITUTSIONAL TUZILISHI VA UNING UMUMIY XARAKTERISTIKASI</h3>

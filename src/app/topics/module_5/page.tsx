@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../page.module.css';
 import Image from 'next/image';
 
-export const TopicFive = () => {
+const TopicFive = () => {
 	return (
 		<div className={styles.page}>
 			<h3>
